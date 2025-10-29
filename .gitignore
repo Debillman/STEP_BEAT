@@ -1,0 +1,75 @@
+# =========================================
+# 🧩 UNITY 기본 캐시 및 빌드 제외
+# =========================================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# =========================================
+# 🧩 IDE 관련 (Visual Studio / Rider)
+# =========================================
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.suo
+*.booproj
+*.mdb
+*.pdb
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# =========================================
+# 🧩 OS 자동 생성 파일
+# =========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================
+# 🧩 빌드 결과물 및 배포 파일
+# =========================================
+*.exe
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.zip
+*.tar
+*.gz
+*.tgz
+*.app
+*.bundle
+*.so
+
+# =========================================
+# 🧩 Firebase / SDK 대용량 플러그인
+# =========================================
+Assets/Firebase/Plugins/x86_64/
+Assets/Firebase/Plugins/arm64-v8a/
+Assets/Firebase/Plugins/armeabi-v7a/
+Assets/Firebase/Editor/
+Assets/GoogleMobileAds/
+Assets/GooglePlayGames/
+
+# =========================================
+# 🧩 버전업 로그 및 기타 불필요 파일
+# =========================================
+UpgradeLog*.htm
+*.log
+*.tmp
+
+# =========================================
+# 🧩 Unity Cloud / Collaborate / VS Code
+# =========================================
+.vscode/
+.collabignore
+.collab/
